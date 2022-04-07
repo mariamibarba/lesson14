@@ -13,14 +13,14 @@ let myArrlength =myArry.length;
 
 let avg = sum / myArrlength;
 
-console.log(arr_1);
-console.log(arr_2);
-console.log(arr_3);
-console.log(arr_4);
-console.log(arr_5);
-console.log(sum);
-console.log(myArrlength);
-console.log(avg);
+// console.log(arr_1);
+// console.log(arr_2);
+// console.log(arr_3);
+// console.log(arr_4);
+// console.log(arr_5);
+// console.log(sum);
+// console.log(myArrlength);
+// console.log(avg);
 
 
 // 2)
@@ -53,7 +53,7 @@ let myObjArr=[
     },
 
 ]
-console.log(myObjArr)
+// console.log(myObjArr)
 
 // 3)
 
@@ -64,7 +64,7 @@ let myObjArry = {
     age: 20,
     phoneNumbers:[555-55-55-55, 555-555-555 ],
 }
-console.log(myObjArry)
+// console.log(myObjArry)
 
 
 // 4)console.log ში გამოიტანეთ სტრინგი "My name is (#3 დავალების firstName  მნიშვნელობა)", My age is 
@@ -72,6 +72,6 @@ console.log(myObjArry)
 //  "My address is (#3 დავალების address-ის პირველი ელემენტის მნიშვნელობა)"
 
 
-let myInformation = console.log`my name is ${myObjArry.firstName}, i am ${myObjArry.age} years old, my address is ${myObjArry.address[0]}`;
+let myInformation = console.log(`my name is ${myObjArry.firstName}, i am ${myObjArry.age} years old, my address is ${myObjArry.address[0]}`);
 
 console.log(myInformation)
