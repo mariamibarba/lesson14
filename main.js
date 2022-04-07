@@ -1,27 +1,6 @@
 // 1)
-let myArry = [1, 2, 2, 9, 3,];
-console.log(myArry)
-let  arr_1 = myArry[0]
-let  arr_2 = myArry[1]
-let  arr_3 = myArry[2]
-let  arr_4 = myArry[3]
-let  arr_5 = myArry[4]
-
-let sum = (arr_1 + arr_2 + arr_3 + arr_4 + arr_5);
-
-let myArrlength =myArry.length;
-
-let avg = sum / myArrlength;
-
-// console.log(arr_1);
-// console.log(arr_2);
-// console.log(arr_3);
-// console.log(arr_4);
-// console.log(arr_5);
-// console.log(sum);
-// console.log(myArrlength);
-// console.log(avg);
-
+let myArry = [1, 2, 2, 9, 3];
+console.log((myArry[0] + myArry[1] + myArry[2] + myArry[3] + myArry[4])/myArry.length)
 
 // 2)
 let myObjArr=[
@@ -53,6 +32,7 @@ let myObjArr=[
     },
 
 ]
+
 // console.log(myObjArr)
 
 // 3)
@@ -74,4 +54,4 @@ let myObjArry = {
 
 let myInformation = console.log(`my name is ${myObjArry.firstName}, i am ${myObjArry.age} years old, my address is ${myObjArry.address[0]}`);
 
-console.log(myInformation)
+// console.log(myInformation)
