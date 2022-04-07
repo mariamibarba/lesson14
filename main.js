@@ -1,6 +1,12 @@
 // 1)
 let myArry = [1, 2, 2, 9, 3];
-console.log((myArry[0] + myArry[1] + myArry[2] + myArry[3] + myArry[4])/myArry.length)
+// console.log((myArry[0] + myArry[1] + myArry[2] + myArry[3] + myArry[4])/myArry.length)
+let sumi=(myArry[0] + myArry[1] + myArry[2] + myArry[3] + myArry[4]);
+console.log(sumi)
+let lengthi=myArry.length
+console.log(lengthi);
+console.log(sumi/lengthi);
+
 
 // 2)
 let myObjArr=[
